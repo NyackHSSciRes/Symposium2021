@@ -242,7 +242,7 @@
       }
     </style>
     
-    <script src="/script.js" defer></script>
+    <script src="./script.js" defer></script>
     
   </head>
   <body>
@@ -253,9 +253,9 @@
       <div class="land-dropdwn">
         <a class="dont-highlight">Landing Page</a>
         <div class="land-dropdwn-content">
-          <a href="./coming-soon.html#intro-info">Intro Info <br></a>
-          <a href="./coming-soon.html#agenda">Agenda<br></a>
-          <a href="./coming-soon.html#project-thumbnails">Project Thumbnails</a>
+          <a href="./#intro-info">Intro Info <br></a>
+          <a href="./#agenda">Agenda<br></a>
+          <a href="./#project-thumbnails">Project Thumbnails</a>
         </div>
       </div>
       
