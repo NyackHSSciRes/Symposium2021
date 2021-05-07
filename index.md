@@ -7,23 +7,251 @@
 
     <title>NHS Symposium 2021</title>
     
+    
     <link rel="shortcut icon" type="image/png" href="https://cdn.glitch.com/2432ad92-289b-49f2-8f5e-58cecbd60270%2FSciRes%20Flavicon.png?v=1619735468018">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     
     <style>
+      nav {
+        background-color: #14213d;
+        color: #ffb703;
+        display: block;
+        font-size: 16px;
+        padding: 0px;
+        margin: 0px;
+        
+      }
+      
+      h1 {
+        display: inline-block;
+        text-align: left;
+        font-size: 24px;
+        padding: 10px;
+        margin: 0px;
+      }
+      
+      body {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        margin: 0px;
+        overflow-x: hidden;
+      }
+      
+      .land-dropdwn, .resource-dropdwn {
+        position: relative;
+        display: inline-block;
+        padding: 8px 50px;
+        margin: 0px;
+        font-size: 22px;
+      }
+      
+      .land-dropdwn-content, .resource-dropdwn-content {
+        display: none;
+        position: absolute;
+        background-color: #ffffff;
+        min-width: 200px;
+        padding: 12px 16px;
+        z-index: 1;
+      }
+      
+      .land-dropdwn:hover .land-dropdwn-content, .resource-dropdwn:hover .resource-dropdwn-content {
+        display: block;
+        color: #ffffff;
+        background-color: #ffb703;
+        text-decoration: none;
+      }
+      
+      .dont-highlight:hover {
+        color: inherit;
+        background-color: inherit;
+      }
+      
+      a {
+        color: inherit;
+        text-decoration: none;
+        display: block;
+        padding: 5px;
+      }
+      
+      a:hover {
+        color: #ffb703;
+        background-color: #ffffff;
+      }
+      
+      .banner {
+        background-image: url("https://cdn.glitch.com/2432ad92-289b-49f2-8f5e-58cecbd60270%2Fscires-symp-banner.svg?v=1620252438346");
+        background-size: cover;
+        height: 100px;
+        width: auto;
+        margin: 0px;
+        padding: 0px;
+        background-repeat: no-repeat;
+      }
+      
+      h3 {
+        text-align: center;
+        color: #ffb703;
+        padding: 40px;
+        font-size: 22px;
+      }
+      
+      span {
+        background-color: #14213d;
+      }
+      
+      p.intro-content {
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 18px;
+      }
+      
+      video {
+        width: 75%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      .video-caption {
+        text-align: center;
+        color: #4571c7;
+      }
+      
+      table {
+        font-size: 18px;
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+        border: 1px solid #14213d;
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+      
+      .fl {
+        float: left;
+      }
+      
+      #project-thumbnails {
+        width: auto;
+        white-space: nowrap;
+        overflow-x: none;
+      }
+      
+      .scrolling {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px;
+        height: 400px;
+        width: 30%;
+      }
+      
+      .scrolling-content {
+        height: 360px;
+        overflow-y: auto;
+        white-space: normal;
+        vertical-align: middle;
+      }
+      
+      #sophomore-thumbnails {
+        background-color: #6aa84f;
+        color: #fff;
+      }
+      
+      #junior-thumbnails {
+        background-color: #599bd5;
+        color: #fff;
+      }
+      
+      #senior-thumbnails {
+        background-color: #4571c7;
+        color: #fff;
+      }
+      
+      #index-sen-project-desc, #index-jun-project-desc, #index-soph-project-desc {
+        font-size: 18px;
+      }
+      
+      .preview-img {
+        margin-left: 10%;
+        width: 80%;
+      }
+      
+      .caption {
+        overflow-wrap: break-word;
+        font-size: 12px;
+      }
+      
+      button {
+        border: none;
+        display: inline-block;
+        width: 50px;
+        height: 30px;
+        background-color: rgba(0,0,0,0);
+        color: #ffb703;
+        font-size: 18px;
+      }
+      
+      button:hover {
+        background-color: #ffb703;
+        color: white;
+      }
+      
+      .left-btn {
+        float: left;
+      }
+      
+      .right-btn {
+        float: right;
+      }
+      
+      /* width */
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+      }
+ 
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #599bd5; 
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #4571c7; 
+      }
+      
+      #agenda, #project-thumbnails, footer {
+        margin-top: 30px;
+      }
+      
+      footer {
+        display: block;
+        padding: 10px;
+        background-color: #14213d;
+        color: #ffb703;
+      }
+      
+      .center {
+        display: block;
+        text-align: center;
+      }
     </style>
     
-    <script>
-    </script>
+    <script src="/script.js" defer></script>
+    
   </head>
-  
   <body>
     <nav>
+      
       <h1>Nyack High School Science Research Symposium 2021</h1>
       
       <div class="land-dropdwn">
-        <a>Landing Page</a>
+        <a class="dont-highlight">Landing Page</a>
         <div class="land-dropdwn-content">
           <a href="./coming-soon.html#intro-info">Intro Info <br></a>
           <a href="./coming-soon.html#agenda">Agenda<br></a>
@@ -32,35 +260,37 @@
       </div>
       
       <div class="resource-dropdwn">
-        <a>Resources</a>
+        <a class="dont-highlight">Resources</a>
         <div class="resource-dropdwn-content">
           <a href="https://nyack-public-schools.echalksites.com/groups/15029/science/science_research">Nyack SciRes Website<br></a>
           <a href="https://www.albany.edu/scienceresearch/">UAlbany SciRes Website<br></a>
           <a href="https://nyackhsscires.github.io/Symposium/">Last Year's Symposium Website<br></a>
         </div>
       </div>
+      
     </nav>
+    
     <div id="intro-info">
       
       <div class="banner">
-        <h3>Introductory Information</h3>
+        <h3><span><i>&nbsp;Introductory Information&nbsp;</i></span></h3>
       </div>
         
-      <p>"Science Research is a three year college course run through the University of Albany. Students in this course pursue their scientific interests through professional level research. This can be anything from studying psychology to carbon nanotubes. Students also find a well-established mentor in their field to guide them through the research they decide to pursue."</p>
+      <p class="intro-content">Thanks for visiting the symposium 2021 website! The event will start on June 1st at 5:45 PM but until then, feel free to check out the project previews provided to see what the science research students are doing.</p>
+      <p class="intro-content">"Science Research is a three year college course run through the University of Albany. Students in this course pursue their scientific interests through professional level research. This can be anything from studying psychology to carbon nanotubes. Students also find a well-established mentor in their field to guide them through the research they decide to pursue."</p>
+      <p class="intro-content">The annual symposium gives students from all grades the opportunity to present the research they've conducted in their field of choice. Sophomores and Juniors will present their posters based on preliminary background research, while Seniors give poster and slides presentations on their completed projects. Afterwards you can ask every student any questions you have about their research. We'll be available until 8:00 on symposium night, June 1st, to answer them!</p>
       
-      <p>The annual symposium give students from all grades the opportunity to present the research they've conducted in their field of choice. Sophomores and Juniors will present their posters based on preliminary background research, while Seniors give poster and slides presentations on their completed projects. Afterwards you can ask every student any questions you have about their research. We'll be available until 8:30 to answer them!</p>
-      
-      <video controls width="250">
+      <video controls width="90%">
         <source src="https://cdn.glitch.com/2432ad92-289b-49f2-8f5e-58cecbd60270%2FTeasdale%20Sci%20Res%202021.mp4?v=1615766303029" type="video/mp4">
         Sorry, your browser doesn't support embedded videos
       </video>
-      <p><i>A video from our Vice Principle, Mr. Teasdale, about the Science Research Program.</i></p>
+      <p class="video-caption"><i>A video from our Vice Principle, Mr. Teasdale, about the Science Research Program.</i></p>
 
     </div>
     
     <div id="agenda">
       <div class="banner">
-        <h3>Agenda</h3>
+        <h3><span><i>Agenda</i></span></h3>
       </div>
         
       <table>
@@ -69,58 +299,67 @@
           <th>Events</th>
         </tr>
         <tr>
-          <td>6:15</td>
-          <td>Begin welcoming attendees to zoom webinar</td>
+          <td>5:45</td>
+          <td class="fl">Begin welcoming attendees to zoom webinar</td>
         </tr>
         <tr>
-          <td>6:30</td>
-          <td>Senior presentations and after invite people to smaller breakout rooms</td>
+          <td>6:00</td>
+          <td class="fl">The main webinar begins, with senior presentations</td>
         </tr>
         <tr>
           <td>7:15</td>
-          <td>Start smaller breakout zooms for junior and sophomore projects</td>
-        </tr>
-        <tr>
-          <td>7:30</td>
-          <td>Poster session on webpage</td>
+          <td class="fl">Start smaller breakout zooms for junior and sophomore projects, available to answer questions</td>
         </tr>
         <tr>
           <td>8:00</td>
-          <td>End the night's festivities</td>
+          <td class="fl">End the night's festivities</td>
         </tr>
       </table>
     </div>
     
     <div id="project-thumbnails">
+      <div class="banner">
+        <h3><span><i>Project Thumbnails</i></span></h3>
+      </div>
       <div class="scrolling" id="sophomore-thumbnails">
-        <h4>Project Title</h4>
-        <h5>Student Name</h5>
-        <img>
-        <p>Small description of project</p>
-        <button id="index-soph-left-button" onclick="sophLeft()"></button>
-        <button id="index-soph-right-button" onclick="sophRight()"></button>
+        <div class="scrolling-content">
+          <h4 id="index-soph-project-title">Project Title</h4>
+          <h5 id="index-soph-student-name">Student Name</h5>
+          <p id="index-soph-project-desc">Small description of project</p>
+          <img class="preview-img" id="index-soph-picture">
+          <p class="caption" id="index-soph-source-caption"></p>
+        </div>
+        <button class="soph left-btn" id="index-soph-left-button" onclick="sophLeft()">&lt;</button>
+        <button class="soph right-btn" id="index-soph-right-button" onclick="sophRight()">&gt;</button>
       </div>
       
       <div class="scrolling" id="junior-thumbnails">
-        <h4>Project Title</h4>
-        <h5>Student Name</h5>
-        <img>
-        <p>Small description of project</p>
-        <button id="index-jun-left-button" onclick="junLeft()"></button>
-        <button id="index-jun-right-button" onclick="junRight()"></button>
+        <div class="scrolling-content">
+          <h4 id="index-jun-project-title">Project Title</h4>
+          <h5 id="index-jun-student-name">Student Name</h5>
+          <p id="index-jun-project-desc">Small description of project</p>
+          <img class="preview-img" id="index-jun-picture">
+          <p class="caption" id="index-jun-source-caption"></p>
+        </div>
+        <button class="jun left-btn" id="index-jun-left-button" onclick="junLeft()">&lt;</button>
+        <button class="jun right-btn" id="index-jun-right-button" onclick="junRight()">&gt;</button>
       </div>
       
       <div class="scrolling" id="senior-thumbnails">
-        <h4 id="index-sen-project-title">Project Title</h4>
-        <h5 id="index-sen-student-name">Student Name</h5>
-        <img id="index-sen-picture">
-        <p id="index-sen-project-desc">Small description of project</p>
-        <button id="index-sen-left-button" onclick="senLeft()"></button>
-        <button id="index-sen-right-button" onclick="senRight()"></button>
+        <div class="scrolling-content">
+          <h4 id="index-sen-project-title">Project Title</h4>
+          <h5 id="index-sen-student-name">Student Name</h5>
+          <p id="index-sen-project-desc">Small description of project</p>
+          <img class="preview-img" id="index-sen-picture">
+          <p class="caption" id="index-sen-source-caption"></p>
+        </div>
+        <button class="sen left-btn" id="index-sen-left-button" onclick="senLeft()">&lt;</button>
+        <button class="sen right-btn" id="index-sen-right-button" onclick="senRight()">&gt;</button>
       </div>
     </div>
     
-    <footer><i>For the Glory of Science!</i></footer>
+    <footer>
+      Thank you to everyone who makes the science research symposium possible, especially our amazing science research teachers, Ms. Jacobson, Ms. Kleinman, and Ms. Foisy! <br><span class="center"><i>For the Glory of Science!</i></span>
+    </footer>
   </body>
-  
 </html>
