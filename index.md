@@ -1,14 +1,10 @@
-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>NHS Symposium 2021</title>
     
-    
-    <link rel="shortcut icon" type="image/png" href="https://cdn.glitch.com/2432ad92-289b-49f2-8f5e-58cecbd60270%2FSciRes%20Flavicon.png?v=1619735468018">
+    <link rel="shortcut icon" type="image/png" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     
@@ -190,6 +186,7 @@
         background-color: rgba(0,0,0,0);
         color: #ffb703;
         font-size: 18px;
+        margin-bottom: 10px;
       }
       
       button:hover {
