@@ -9,6 +9,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     
     <style>
+      header {
+        display: none;
+      }
+    
       nav {
         background-color: #14213d;
         color: #ffb703;
