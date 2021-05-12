@@ -120,12 +120,12 @@
       
       table {
         font-size: 18px;
-        width: 80%;
-        margin-left: 10%;
         text-align: center;
         border: 1px solid #14213d;
         margin-top: 40px;
         margin-bottom: 40px;
+        margin-right: auto;
+        margin-left: auto;
       }
       
       .fl {
