@@ -310,7 +310,7 @@
       </p>
       <p class="intro-content"> Science Research Symposium 2021 - Room 3 <br>
         Student Panelists: Adriana Gleeson, Margaret Palmer, Lukas Chyla, Mateo Sanabria, Andrea Garcias <br>
-        Link to join the webinar: <a href="https://zoom.us/j/98414307966">https://zoom.us/j/98414307966</a><br>
+        Link to join the webinar: <a class="visible-link" href="https://zoom.us/j/98414307966">https://zoom.us/j/98414307966</a><br>
         Telephone: 1 646 558 8656<br>
         Webinar ID: 984 1430 7966<br>
       </p>
