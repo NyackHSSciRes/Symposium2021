@@ -129,13 +129,24 @@
     display: block;
     background-color: #f0f0f0;
     padding: 10px;
+    grid-column: 1 2;
   }
       
   .fl {
-    width: 100%;
+    float: left;
+    width: 30%;
     padding: 10px;
     margin: 10px;
    }
+      
+   .grid-contain {
+     display: grid;
+     grid-column-template: 30% 70%;
+    }
+      
+  #presentation-video {
+    grid-column: 2 3;
+  }
       
   video {
     width: 75%;
@@ -206,6 +217,7 @@
       
     </nav>
     
+   <div class="grid-contain>
    <div id="presentation-video" class="center">
      <video controls>
        <source src="https://drive.google.com/uc?export=view&id=1u2IlRwJqts_DJ7XWyQbZs7msJlhROjcW">
@@ -224,6 +236,7 @@
       <p>Dr. Christopher Glein, Southwest Research Institute</p>
       <h3><i>What's the most important thing you have learned in Science Research?</i></h3>
       <p>I think that the most important and definitely most useful things Science Research has taught me is how to read journal articles and how to process the world scientifically.</p>
+    </div>
     </div>
     
     <div>
