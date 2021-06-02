@@ -106,6 +106,16 @@
         font-size: 18px;
       }
       
+      .visible-link {
+        color: #ffb703;
+        text-decoration: underline;
+      }
+      
+      .visible-link:hover {
+        background-color: #ffb703;
+        color: #ffffff;
+      }
+      
       video {
         width: 75%;
         display: block;
@@ -277,24 +287,24 @@
     
     <div id="intro-info">
       
-      <div>
+      <div class="banner">
         <h3><span><a href="https://zoom.us/j/95886465408"><i>&nbsp;Join the Webinar, Starting at 5:45 PM, June 2nd&nbsp;</i></a></span></h3>
       </div>
       <p class="intro-content">You can click on the title of the header above for the link to the main room of the zoom webinar, starting at 5:45 PM. Also you can find the link and other joining information below. Information to join the individual webinars to ask questions about student projects after the main events can be found below as well as on the individual student webpages. Note students will be broken up into three different rooms for answering questions.</p>
       <p class="intro-content">Science Research Symposium 2021 - Main Room. <br>
-        Link to join the webinar: <a href="https://zoom.us/j/95886465408">https://zoom.us/j/95886465408</a> <br>
+        Link to join the webinar: <a class="visible-link" href="https://zoom.us/j/95886465408">https://zoom.us/j/95886465408</a> <br>
         Telephone: 1 646 558 8656 <br>
         Webinar ID: 958 8646 5408
       </p>
       <p class="intro-content"> Science Research Symposium 2021 - Room 1 <br>
         Student Panelists: Talia Spatz, Janice Yohannen, Quinn Connor, Juliet Lovelace, Will Eisen <br>
-        Link to join the webinar: <a href="tinyurl.com/9amhxc9w">tinyurl.com/9amhxc9w</a><br>
+        Link to join the webinar: <a class="visible-link" href="tinyurl.com/9amhxc9w">tinyurl.com/9amhxc9w</a><br>
         Telephone: 1 646 558 8656<br>
         Webinar ID: 939 7011 4596<br>
       </p>
       <p class="intro-content"> Science Research Symposium 2021 - Room 2 <br>
         Student Panelists: Madison Milla, Robert Murrell, Jaydn Turner, Richard Feldman <br>
-        Link to join the webinar: <a href="https://zoom.us/j/96659294469">https://zoom.us/j/96659294469</a><br>
+        Link to join the webinar: <a class="visible-link" href="https://zoom.us/j/96659294469">https://zoom.us/j/96659294469</a><br>
         Telephone: 1 646 558 8656<br>
         Webinar ID: 966 5929 4469<br>
       </p>
