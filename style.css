@@ -1,4 +1,4 @@
-header {
+ header {
     display: none;
   }
 
@@ -12,7 +12,7 @@ header {
     
   }
   
-  h1 {
+  h1, .webinar-link {
     display: inline-block;
     text-align: left;
     font-size: 24px;
@@ -27,7 +27,7 @@ header {
     overflow-x: hidden;
   }
   
-  .land-dropdwn, .resource-dropdwn {
+  .land-dropdwn, .student-dropdwn, .resource-dropdwn {
     position: relative;
     display: inline-block;
     padding: 8px 50px;
@@ -35,7 +35,7 @@ header {
     font-size: 22px;
   }
   
-  .land-dropdwn-content, .resource-dropdwn-content {
+  .land-dropdwn-content, .student-dropdwn-content, .resource-dropdwn-content {
     display: none;
     position: absolute;
     background-color: #ffffff;
@@ -44,7 +44,7 @@ header {
     z-index: 1;
   }
   
-  .land-dropdwn:hover .land-dropdwn-content, .resource-dropdwn:hover .resource-dropdwn-content {
+  .land-dropdwn:hover .land-dropdwn-content, .student-dropdwn:hover .student-dropdwn-content, .resource-dropdwn:hover .resource-dropdwn-content {
     display: block;
     color: #ffffff;
     background-color: #ffb703;
@@ -93,6 +93,16 @@ header {
     padding-left: 30px;
     padding-right: 30px;
     font-size: 18px;
+  }
+  
+  .visible-link {
+    color: #ffb703;
+    text-decoration: underline;
+  }
+  
+  .visible-link:hover {
+    background-color: #ffb703;
+    color: #ffffff;
   }
   
   video {
