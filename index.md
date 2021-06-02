@@ -297,7 +297,7 @@
         Webinar ID: 958 8646 5408
       </p>
       <p class="intro-content"> Science Research Symposium 2021 - Room 1 <br>
-        Student Panelists: Talia Spatz, Janice Yohannen, Quinn Connor, Juliet Lovelace, Will Eisen <br>
+        Student Panelists: Talia Spatz, Janice Yohannan, Quinn Connor, Juliet Lovelace, Will Eisen <br>
         Link to join the webinar: <a class="visible-link" href="https://zoom.us/j/93970114596">https://zoom.us/j/93970114596</a><br>
         Telephone: 1 646 558 8656<br>
         Webinar ID: 939 7011 4596<br>
