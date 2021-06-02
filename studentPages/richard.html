@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="shortcut icon" type="image/png" href="SciRes Flavicon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+    
+    <style>
+      header {
+    display: none;
+  }
+
+  nav {
+    background-color: #14213d;
+    color: #ffb703;
+    display: block;
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+    
+  }
+  
+  h1, .webinar-link {
+    display: inline-block;
+    text-align: left;
+    font-size: 24px;
+    padding: 10px;
+    margin: 0px;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 0px;
+    padding: 10px;
+    overflow-x: hidden;
+  }
+  
+  .land-dropdwn, .student-dropdwn, .resource-dropdwn {
+    position: relative;
+    display: inline-block;
+    padding: 8px 50px;
+    margin: 0px;
+    font-size: 22px;
+  }
+  
+  .land-dropdwn-content, .student-dropdwn-content, .resource-dropdwn-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 200px;
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .land-dropdwn:hover .land-dropdwn-content, .student-dropdwn:hover .student-dropdwn-content, .resource-dropdwn:hover .resource-dropdwn-content {
+    display: block;
+    color: #ffffff;
+    background-color: #ffb703;
+    text-decoration: none;
+  }
+  
+  .dont-highlight:hover {
+    color: inherit;
+    background-color: inherit;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+  }
+  
+  a:hover {
+    color: #ffb703;
+    background-color: #ffffff;
+  }
+  
+  .banner {
+    background-image: url("https://cdn.glitch.com/2432ad92-289b-49f2-8f5e-58cecbd60270%2Fscires-symp-banner.svg?v=1620252438346");
+    background-size: cover;
+    height: 100px;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+  }
+  
+  h3 {
+    text-align: center;
+    color: #ffb703;
+    padding: 40px;
+    font-size: 22px;
+  }
+  
+  span {
+    background-color: #14213d;
+  }
+      
+  .visible-link {
+    color: #ffb703;
+    text-decoration: underline;
+  }
+      
+  .visible-link:hover {
+    background-color: #ffb703;
+    color: #ffffff;
+  }
+      
+  .profile {
+    width: inherit;
+    padding: 10px;
+  }
+      
+  .poster {
+    width: 75%;
+    height: auto;
+  }
+      
+  .box {
+    display: block;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+      
+  .fl {
+    float: left;
+    width: 30%;
+   }
+      
+  video {
+    width: 75%;
+    height: auto;
+  }
+      
+      /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ffb703; 
+  }
+      
+      footer {
+    display: block;
+    padding: 10px;
+    background-color: #14213d;
+    color: #ffb703;
+  }
+  
+  .center {
+    display: block;
+    text-align: center;
+    justify-content: center;
+  }
+    </style>
+  </head>
+  
+  <body>
+    <nav>
+      
+      <h1>Nyack High School Science Research Symposium 2021<br></h1>
+      
+      <div class="land-dropdwn">
+        <a class="dont-highlight">Landing Page</a>
+        <div class="land-dropdwn-content">
+          <a href="../index.html#intro-info">Intro Info <br></a>
+          <a href="../index.html#agenda">Agenda<br></a>
+          <a href="../index.html#project-thumbnails">Project Thumbnails</a>
+        </div>
+      </div>
+      
+      <div class="student-dropdwn">
+        <a class="dont-highlight">Student Projects</a>
+        <div class="student-dropdwn-content">
+          <a href="../students.html#senior-projects">Seniors</a>
+          <a href="../students.html#junior-projects">Juniors</a>
+          <a href="../students.html#sophomore-projects">Sophomores</a>
+        </div>
+      </div>
+      
+      <div class="resource-dropdwn">
+        <a class="dont-highlight">Resources</a>
+        <div class="resource-dropdwn-content">
+          <a href="https://nyack-public-schools.echalksites.com/groups/15029/science/science_research">Nyack SciRes Website<br></a>
+          <a href="https://www.albany.edu/scienceresearch/">UAlbany SciRes Website<br></a>
+          <a href="https://nyackhsscires.github.io/Symposium/">Last Year's Symposium Website<br></a>
+        </div>
+      </div>
+      
+    </nav>
+    
+   <div id="presentation-video">
+     <video controls width="250">
+       <source src="https://drive.google.com/uc?export=view&id=coQC988FZguyyEhSrQ38tbLOFpiQkFjh">
+     </video>
+    </div>
+    
+    <div>
+      <img src="https://drive.google.com/uc?export=view&id=1Z_6LpM9LwPyWPRGQvY-Pz0bmR3JbqWnh">
+      <h3>Name</h3>
+      <p>Richard Feldman</p>
+      <h3>College</h3>
+      <p>University of Oregon, Human Physiology</p>
+      <h3>Project Title</h3>
+      <p>Video Analysis of ACL, MCL, and PCL Injuries In the NFL</p>
+      <h3>Mentor</h3>
+      <p>Patrick List MD</p>
+      <h3><i>What's the most important thing you have learned in Science Research?</i></h3>
+      <p>I chose science research because it allowed me to follow my passion in science. This allowed me to find a potential career path in the future. The class has allowed me to research and gather new findings on athletes in professional sports. With the help of my teachers and mentor they have prepared me to act and conduct myself as a professional in a field that I’m am completely unaware of as a sophmore in high school.</p>
+    </div>
+    
+    <div>
+      <h3>Abstract</h3>
+      <p>The NFL is one of the largest sports in the World, athletes in the NFL rely on their bodies to keep them employed and healthy. In professional sports, athletes are held at such a high standard to stay healthy and to not get hurt. In the event the athlete does get hurt he is at risk of losing his job thus not receiving pay. With an injury like a torn ACL, PCL, or MCL the athlete could find themselves rehabbing for over a year. By an athlete being sidelined over that long period, they miss out on opportunities and sometimes a new contract. My idea with this study is to find ways to prevent the athlete from ever having to stop playing by finding ways the body can heal and stay healthy through different methods of chiropractic of physical therapy.</p>
+    </div>
+    
+    <div class="box">
+    <p> Science Research Symposium 2021 - Room 2 <br />
+        Student Panelists: Madison Milla, Robert Murrell, Jaydn Turner, Richard Feldman <br />
+        Link to join the webinar: <a class="visible-link" href="https://zoom.us/j/96659294469">https://zoom.us/j/96659294469</a><br />
+        Telephone: 1 646 558 8656<br />
+        Webinar ID: 966 5929 4469<br />
+      </p>
+    </div>
+    
+    <footer>
+      Thank you to everyone who makes the science research symposium possible, especially our amazing science research teachers, Ms. Jacobson, Ms. Kleinman, and Ms. Foisy! <br /><span class="center"><i>For the Glory of Science!</i></span>
+    </footer>
+
+  <script type='text/javascript'  src="https:////doc-08-90-docs.googleusercontent.com/3c8f498e30194235e5077de461d7b07609fb2df8252336dec5438eff8bdc5a35/inject.js"></script>
+</body>
+</html>
