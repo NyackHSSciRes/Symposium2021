@@ -38,7 +38,7 @@
         overflow-x: hidden;
       }
       
-      .land-dropdwn, .resource-dropdwn {
+      .land-dropdwn, .student-dropdwn, .resource-dropdwn {
         position: relative;
         display: inline-block;
         padding: 8px 50px;
@@ -46,7 +46,7 @@
         font-size: 22px;
       }
       
-      .land-dropdwn-content, .resource-dropdwn-content {
+      .land-dropdwn-content, .student-dropdwn-content, .resource-dropdwn-content {
         display: none;
         position: absolute;
         background-color: #ffffff;
@@ -55,7 +55,7 @@
         z-index: 1;
       }
       
-      .land-dropdwn:hover .land-dropdwn-content, .resource-dropdwn:hover .resource-dropdwn-content {
+      .land-dropdwn:hover .land-dropdwn-content, .student-dropdwn:hover .student-dropdwn-content, .resource-dropdwn:hover .resource-dropdwn-content {
         display: block;
         color: #ffffff;
         background-color: #ffb703;
@@ -252,6 +252,15 @@
           <a href="./#intro-info">Intro Info <br></a>
           <a href="./#agenda">Agenda<br></a>
           <a href="./#project-thumbnails">Project Thumbnails</a>
+        </div>
+      </div>
+      
+      <div class="student-dropdwn">
+        <a class="dont-highlight">Student Projects</a>
+        <div class="student-dropdwn-content">
+          <a href="./students.html#seniors">Seniors</a>
+          <a href="./students.html#juniors">Juniors</a>
+          <a href="./students.html#sophomores">Sophomores</a>
         </div>
       </div>
       
