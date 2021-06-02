@@ -256,11 +256,11 @@
       </div>
       
       <div class="student-dropdwn">
-        <a class="dont-highlight">Student Projects</a>
+        <a class="dont-highlight" href="./students.html">Student Projects</a>
         <div class="student-dropdwn-content">
-          <a href="./students.html#seniors">Seniors</a>
-          <a href="./students.html#juniors">Juniors</a>
-          <a href="./students.html#sophomores">Sophomores</a>
+          <a href="./students.html#senior-projects">Seniors</a>
+          <a href="./students.html#junior-projects">Juniors</a>
+          <a href="./students.html#sophomore-projects">Sophomores</a>
         </div>
       </div>
       
